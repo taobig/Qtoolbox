@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/balloon.green.png</file>
+    </qresource>
+</RCC>
