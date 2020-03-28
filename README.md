@@ -1,7 +1,7 @@
 ## 说明
 本项目是2012年自己学习Qt时做的小工具集合，起先是基于Qt4。最近把代码做了一些整理，并移植到了Qt5。
 
-![windows]](https://github.com/taobig/Qtoolbox/Qtoolbox-windows-1.0.0.png)
+![windows]](https://github.com/taobig/Qtoolbox/blob/master/Qtoolbox-windows-1.0.0.png)
 
 
 ## 依赖
