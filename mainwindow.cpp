@@ -407,7 +407,7 @@ void MainWindow::selectFileButtonClicked() {
   // QString file = QFileDialog::getOpenFileName(this, tr("Open File"),
   // "/debug", tr("default (*.ini)"));
   QString file = QFileDialog::getOpenFileName(this, tr("Open File"));
-  if (file != NULL) {
+  if (!file.isNull()) {
     this->selectedFile->setText(file);
   } else {
     // cancel选择

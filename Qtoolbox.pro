@@ -6,6 +6,15 @@
 
 QT += core gui widgets network
 #QT += webkit  //for QWebView
+## 在Select Components中点开Qt 6.1.0，勾选Qt 5 Compatibility Module
+QT += core5compat
+## #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
+##     #include <QtCore/QTextCodec>
+## #else
+##     #include <QtCore5Compat/QTextCodec>
+## #endif
+## Or simply
+## include <QTextCodec>
 
 #for new signal & slot syntax
 CONFIG += c++11

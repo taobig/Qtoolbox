@@ -53,7 +53,7 @@ QByteArray stringChecksum(const QString string,
                           QCryptographicHash::Algorithm hashAlgorithm) {
   QByteArray ba, bb;
   QCryptographicHash md(hashAlgorithm);
-  ba.append(string);
+  ba.append(string.toUtf8());
   md.addData(ba);
   return md.result();
 }
