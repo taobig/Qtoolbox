@@ -98,7 +98,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="213"/>
         <source>Content of countdown reminder</source>
-        <translation>倒计时提醒</translation>
+        <translation>倒计时提醒文字</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="218"/>
