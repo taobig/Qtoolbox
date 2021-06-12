@@ -13,3 +13,5 @@
 2. 在Qt Creator中启用Beautifier插件，并设置clang-format二进制文件的位置
 3. 使用默认的LLVM代码风格
 
+PS: Qt Creator 4.15.0（Macos）自带clang-format就可以正常工作不需要手动安装clang-format。
+

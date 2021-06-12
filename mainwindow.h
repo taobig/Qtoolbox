@@ -4,6 +4,7 @@
 #include "lineedit.h"
 #include "mythread.h"
 #include <QCheckBox>
+#include <QComboBox>
 #include <QMainWindow>
 #include <QMetaProperty> //for QMetaEnum
 #include <QPlainTextEdit>
@@ -39,6 +40,10 @@ private:
   void resetThreadInfo();
 
 private:
+
+  const QString UNIT_MINUTE = "minute";
+  const QString UNIT_SECOND = "second";
+
   Ui::MainWindow *ui;
   QMenu *menuii;
   QAction *restore;
@@ -53,6 +58,7 @@ private:
   QApplication *myapp;
   int ipaddr_num;
   QLineEdit *timerEdit;
+  QComboBox *countdownUnitComboBox;
   QLineEdit *timerContentEdit;
   QPushButton *timerButton;
 
